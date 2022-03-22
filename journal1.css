@@ -4,8 +4,13 @@
     								url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");}
 body{
 				font-family:Verdana,Geneva,Arial,sans-serif;
+				font-size:small;
 }
 h1{
-    								font-family:"Emblema One";
-font-size:2000%;
+    								font-family:"Emblema One",sans-serif;
+    								font-size:220%;
+    				}
+    				h2{
+    								font-family:"Emblema One",sans-serif;
+    								font-size:130%;
     				}
