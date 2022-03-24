@@ -18,3 +18,7 @@ h1{
 blockquote{
 				font-style:italic;
 }
+h1,h2{
+				color:#CC6600;
+				text-decoration:underline;
+}
