@@ -20,5 +20,5 @@ blockquote{
 }
 h1,h2{
 				color:#CC6600;
-				text-decoration:underline;
+				border-bottom:thin dotted #888888;
 }
