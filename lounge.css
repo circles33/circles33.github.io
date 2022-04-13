@@ -35,8 +35,8 @@ h2 {
 }
 #elixirs{
 border-width:thin;
-				border:solid;
+				border-style:solid;
 				/* 007e7e thin */
 			
-				border-color:007e7e;
+				border-color:rgb(0, 126, 126);
 }
