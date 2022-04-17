@@ -39,4 +39,61 @@ border-width:thin;
 				/* 007e7e thin */
 			
 				border-color:rgb(0, 126, 126);
+				width:200px;
+				/* 内边距右下左20px  外边距左20px 文本对齐居中 背景鸡尾酒图像 水平方向平铺*/
+				padding-right:20px;
+				padding-bottom:20px;
+				padding-left:20px;
+				
+				margin-left:20px;
+				text-align:center;
+				
+				background-image:url(images/cocktail.gif);
+				background-repeat: repeat-x;
+				/* 饮料区 h2黑色 h3红色d12c47 */
+			
+}
+
+	#elixirs h2{
+								color:black;
+				}
+				#elixirs h3{
+								color:#d12c47;
+				}
+#elixirs{
+				line-height:1;
+}
+#copy{
+				font-size:50%;
+				text-align:center;
+				line-height:normal;
+				margin-top: 30px;
+}
+
+.cd {
+				font-style:italic;
+}
+.artist {
+				font-weight:bold;
+}
+/* 绿红黄 */
+a:link{
+				color:green;
+}
+a:visited{
+				color:red;
+}
+a:hover{
+				color:yellow;
+}
+/* 007e7e  333333 0d5353*/
+#elixirs a:link{
+				color:#007e7e;
+}
+#elixirs a:visited{
+				color:#333333;
+}
+#elixirs a:hover{
+background:#f88396;
+				color:#0d5353;
 }
