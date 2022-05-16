@@ -1,2 +1,2 @@
-string a = "字符串";
-alert(typeof a);
+const a = "字符串";
+alert(typeof (a));
