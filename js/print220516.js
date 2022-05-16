@@ -1,2 +1,2 @@
-const a = 1;
+string a = "字符串";
 alert(typeof a);
