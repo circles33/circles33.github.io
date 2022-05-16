@@ -1,3 +1,2 @@
-var a = 1;
+const a = 1;
 window.alert(a);
-window.alert(typeof(a));
