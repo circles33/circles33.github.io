@@ -1,2 +1,2 @@
 const a = 1;
-window.alert(a);
+alert(a);
