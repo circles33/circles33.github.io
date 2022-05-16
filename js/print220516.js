@@ -1,2 +1,2 @@
 const a = 1;
-alert(a);
+alert(typeof a);
