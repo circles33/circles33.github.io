@@ -1,2 +1,2 @@
-const a = "字符串";
-document.getElementById("demo").innerHTML= 5+6;
+var a = null;
+document.getElementById("demo").innerHTML= a;
