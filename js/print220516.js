@@ -1,2 +1,2 @@
 var a = null;
-document.getElementById("demo").innerHTML= a;
+document.getElementById("demo").innerHTML=typeof a;
