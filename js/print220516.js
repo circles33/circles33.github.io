@@ -1,2 +1,2 @@
-string a = "世界线";
+var a = "世界线";
 document.getElementById("demo").innerHTML= a;
