@@ -1,2 +1,2 @@
-var a = undefined;
-document.getElementById("demo").innerHTML=typeof a;
+string a = "世界线";
+document.getElementById("demo").innerHTML= a;
