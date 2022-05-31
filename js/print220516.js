@@ -1,2 +1,2 @@
-var a = boolean(0);
-document.getElementById("demo").innerHTML=typeof a;
+var a = new Boolean(false);
+document.getElementById("demo").innerHTML= a;
