@@ -1,5 +1,5 @@
 function rand(n,m){
 return Math.random()*(n-m)+m;
 };
-rand(1,8);
+rand(8,1);
 document.getElementById("demo").innerHTML=rand;
