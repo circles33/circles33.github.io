@@ -1,2 +1,2 @@
-var a = object(2);
-document.getElementById("demo").innerHTML=typeof a;
+var a = new Object();
+document.getElementById("demo").innerHTML= a;
