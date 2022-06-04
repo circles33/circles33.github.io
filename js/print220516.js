@@ -1,2 +1,2 @@
-var a = new Object();
-document.getElementById("demo").innerHTML= typeof a;
+var a = array["人","三界","搬砖"];
+document.getElementById("demo").innerHTML=  a;
