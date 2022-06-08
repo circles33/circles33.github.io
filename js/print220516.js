@@ -27,8 +27,8 @@ function produceNum1(){
 }
 document.getElementById("demo").innerHTML=arr[0];
 document.getElementById("demo1").innerHTML=arr[1];
-document.getElementById("demo2").innerHTML=arr[0];
-document.getElementById("demo3").innerHTML=arr[1];
+document.getElementById("demo2").innerHTML=arr1[0];
+document.getElementById("demo3").innerHTML=arr1[1];
 if(rand(7,1)>3){
 document.getElementById("if").innerHTML="后";
 }else{
