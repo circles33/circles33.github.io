@@ -13,10 +13,10 @@ function produceNum(n,m){
   }
   return arr;
 }
-function produceNum1(){
+function produceNum1(n,m){
   let arr1=[];
   for(let i=0;i<2;i++){
-    let num=Math.floor((Math.random()*(9-1))+1);
+    let num=Math.floor((Math.random()*(n-m))+m);
     if(arr1.indexOf(num)==-1){ //不存在推入
       arr1.push(num);  
     }else{
