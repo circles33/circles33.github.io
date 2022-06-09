@@ -17,8 +17,8 @@ function produceNum1(){
   let arr1=[];
   for(let i=0;i<2;i++){
     let num=Math.floor((Math.random()*(9-1))+1);
-    if(arr.indexOf(num)==-1){ //不存在推入
-      arr.push(num);  
+    if(arr1.indexOf(num)==-1){ //不存在推入
+      arr1.push(num);  
     }else{
       i--; //存在了使i-1增加一次循环次数
     }
