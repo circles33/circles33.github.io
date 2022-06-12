@@ -29,8 +29,8 @@ produceNum(7,1);
 produceNum1();
 document.getElementById("demo").innerHTML=rand(4,1);
 document.getElementById("demo1").innerHTML=rand(8,1);
-document.getElementById("demo2").innerHTML=rand(9,1);
-document.getElementById("demo3").innerHTML=rand(9,1);
+document.getElementById("demo2").innerHTML=rand(12,1);
+document.getElementById("demo3").innerHTML=rand(26,1);
 if(rand(7,1)>3){
 document.getElementById("if").innerHTML="后";
 }else{
