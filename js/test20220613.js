@@ -5,6 +5,7 @@ while(i<10){
 sum+=i;
 i++;
 }
+return sum;
 }
 
 document.getElementById("demo1").innerHTML = demo1();
