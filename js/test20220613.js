@@ -25,10 +25,10 @@ var maney=10000;
 document.getElementById("demo3").innerHTML = maney;
 
 
-for (var i = 1; i <= 9; i ++){
+for (var ii = 1; ii <= 9; ii ++){
                         document.write("<tr>")
-                        for (var l = 1; l <= i; l ++){
-                            document.write("<td>" + l + "*" + i + "=" +  i*l + "</td>");
+                        for (var l = 1; l <= ii; li ++){
+                            document.write("<td>" + l + "*" + ii + "=" +  ii*l + "</td>");
                         }
                         document.write("</tr>");
                     }
