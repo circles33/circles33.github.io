@@ -1,11 +1,13 @@
+demo1(){
 var i =1;
 var sum=0;
 while(i<10){
 sum+=i;
 i++;
 }
+}
 
-document.getElementById("demo1").innerHTML = sum;
+document.getElementById("demo1").innerHTML = demo1();
 
 var sum1=0;
         var i1=1;
