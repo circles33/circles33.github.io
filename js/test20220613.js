@@ -23,3 +23,13 @@ var maney=10000;
             maney=maney*1.003;
         }
 document.getElementById("demo3").innerHTML = maney;
+
+
+for (var i = 1; i <= 9; i ++){
+                        document.write("<tr>")
+                        for (var l = 1; l <= i; l ++){
+                            document.write("<td>" + l + "*" + i + "=" +  i*l + "</td>");
+                        }
+                        document.write("</tr>");
+                    }
+ 
