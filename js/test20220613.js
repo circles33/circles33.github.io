@@ -1,8 +1,8 @@
-var i=0;
-var sum=0;
-while(i<5){
-sum=sum+i;
-document.getElementById("demo1").innerHTML =sum;
-document.write('1');
-i++;
+function myFunction(){
+	var x="",i=0;
+	while (i<5){
+		x=x + "该数字为 " + i + "<br>";
+		i++;
+	}
+	document.getElementById("demo").innerHTML=x;
 }
