@@ -1,35 +1,6 @@
-demo1(){
-var i =1;
+var i=0;
 var sum=0;
-while(i<10){
-sum+=i;
-i++;
+while(i<5){
+document.getElementById("demo1").innerHTML =1;
+i++
 }
-return sum;
-}
-
-document.getElementById("demo1").innerHTML = demo1();
-
-var sum1=0;
-        var i1=1;
-        do {
-            sum1+=i1;
-            i1++;
-        } while (i1<=100);
-document.getElementById("demo2").innerHTML = sum1;
-
-var maney=10000;
-        for (int i2=1;i2<=5;i++) {
-            maney=maney*1.003;
-        }
-document.getElementById("demo3").innerHTML = maney;
-
-
-for (var ii = 1; ii <= 9; ii ++){
-                        document.write("<tr>")
-                        for (var l = 1; l <= ii; li ++){
-                            document.write("<td>" + l + "*" + ii + "=" +  ii*l + "</td>");
-                        }
-                        document.write("</tr>");
-                    }
- 
