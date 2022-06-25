@@ -1,8 +1,11 @@
 function myFunction(){
-	var x="",i=0;
-	while (i<5){
-		x=x + "该数字为 " + i + "<br>";
-		i++;
+	var x="",i=1,m=1;
+	while (i<10){
+        while(m<10){
+		x=x + i "乘以" m "等于" i*m+ "<br>";
+	        m++;
 	}
+        i++;
+        }
 	document.getElementById("demo").innerHTML=x;
 }
