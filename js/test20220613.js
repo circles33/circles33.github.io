@@ -2,7 +2,7 @@ function myFunction(){
 	var x="",i=1,m=1;
 	while (i<10){
         while(m<10){
-		x=x + i "乘以" m "等于" i*m+ "<br>";
+		x=x + i + "乘以" + m + "等于" + i*m+ "<br>";
 	        m++;
 	}
         i++;
