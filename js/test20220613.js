@@ -1,10 +1,9 @@
 function myFunction(){
-	var a="",i=1;
+	var x="",i=1;
 	while (i<10){
 
         
-		a=a + i + "<br>";
+		x=x + i + "<br>";
 	        i++;
         }
-	document.getElementById("demo").innerHTML=a;
-}
+	document.getElementById("demo").innerHTML=x;
