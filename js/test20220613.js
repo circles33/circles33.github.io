@@ -1,9 +1,7 @@
 function myFunction(){
-	var x="",i=1;
+	var x=0,i=1;
 	while (i<10){
-
-        
-		x=x + i + "<br>";
+                x=x + i ;
 	        i++;
         }
 	document.getElementById("demo").innerHTML=x;
