@@ -3,7 +3,7 @@ function myFunction(){
 	while (i<10){
 
         
-		x=x + i + "<br>";
+		sum=sum + i + "<br>";
 	        i++;
         }
 	document.getElementById("demo").innerHTML=x;
