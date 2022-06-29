@@ -7,3 +7,4 @@ function myFunction(){
 	        i++;
         }
 	document.getElementById("demo").innerHTML=x;
+}
