@@ -6,5 +6,5 @@ function myFunction(){
 		sum=sum + i + "<br>";
 	        i++;
         }
-	document.getElementById("demo").innerHTML=x;
+	document.getElementById("demo").innerHTML=sum;
 }
