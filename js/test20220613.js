@@ -1,10 +1,10 @@
 function myFunction(){
-	var sum="",i=1;
+	var a="",i=1;
 	while (i<10){
 
         
-		sum=sum + i + "<br>";
+		a=a + i + "<br>";
 	        i++;
         }
-	document.getElementById("demo").innerHTML=sum;
+	document.getElementById("demo").innerHTML=a;
 }
