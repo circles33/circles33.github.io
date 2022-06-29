@@ -3,7 +3,7 @@ function myFunction(){
 	while (i<10){
 
         
-		x=x + i + "<br>";
+		x=x + "咋啦"+ i + "<br>";
 	        i++;
         }
 	document.getElementById("demo").innerHTML=x;
