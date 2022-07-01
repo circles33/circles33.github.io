@@ -1,7 +1,8 @@
 function myFunction(){
-	var x=0;
-	for(var i=0;i<5;i++){
-                x=x + i ;
+	const dongli ={xinhao:"XRN",dianan:"660V"}
+        let text="";
+	for(let x in dongli){
+                text += dongli[x] +"";
 	       }
-	document.getElementById("demo").innerHTML=x;
+	document.getElementById("demo").innerHTML=text;
 }
