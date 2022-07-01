@@ -5,7 +5,7 @@ function myFunction(){
         day="周一";
         break;
         case 5:
-        day ="周六"
+        day ="周六";
         }
 	document.getElementById("demo").innerHTML="明天是"+day;
 }
