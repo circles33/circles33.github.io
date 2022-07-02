@@ -6,6 +6,9 @@ function myFunction(){
         break;
         case 5:
         day ="周六";
+        break;
+        case 6:
+        day ="周天";
         }
 	document.getElementById("demo").innerHTML="明天是"+day;
 }
