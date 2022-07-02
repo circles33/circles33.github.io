@@ -1,6 +1,6 @@
 function myFunction(){
 	var day;
-        var d = new Date().getday();
+        var d = new Date().getDay();
         switch(d){
         case 0:
         day="周一";
