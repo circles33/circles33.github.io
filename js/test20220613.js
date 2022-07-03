@@ -1,6 +1,4 @@
 function myFunction(){
-	var person = new Object();
-        person.name="支付宝";
-        person.age=90;
+	var person = {name:"公交车",age:5}
 	document.getElementById("demo").innerHTML=person.name+"年龄是"+person.age;
 }
