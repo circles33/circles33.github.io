@@ -1,4 +1,6 @@
 function myFunction(){
-	alert("疏散通道");
-	//document.getElementById("demo").innerHTML="明天是"+day;
+	var person = new Object();
+        person.name="支付宝";
+        person.age=90;
+	document.getElementById("demo").innerHTML=person.name+"年龄是"+person.age;
 }
