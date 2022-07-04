@@ -29,11 +29,11 @@ produceNum(7,1);
 produceNum1();
 document.getElementById("demo").innerHTML=rand(4,1);
 document.getElementById("demo1").innerHTML=rand(8,1);
-if(rand(3,1)=1){
+
 document.getElementById("demo2").innerHTML=rand(12,1);}
-else{
+
 document.getElementById("demo3").innerHTML=rand(26,1);
-}
+
 if(rand(4,1)=1){
 document.getElementById("if").innerHTML="general part";
 }else if(rand(4,1)=2){
