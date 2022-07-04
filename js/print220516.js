@@ -29,12 +29,18 @@ produceNum(7,1);
 produceNum1();
 document.getElementById("demo").innerHTML=rand(4,1);
 document.getElementById("demo1").innerHTML=rand(8,1);
-document.getElementById("demo2").innerHTML=rand(12,1);
+if(rand(3,1)=1){
+document.getElementById("demo2").innerHTML=rand(12,1);}
+else{
 document.getElementById("demo3").innerHTML=rand(26,1);
-if(rand(7,1)>3){
-document.getElementById("if").innerHTML="后";
-}else{
-document.getElementById("if").innerHTML="前";
+}
+if(rand(4,1)=1){
+document.getElementById("if").innerHTML="general part";
+}else if{
+document.getElementById("if").innerHTML="3 part";
+}
+else{
+document.getElementById("if").innerHTML="2 part";
 }
 document.getElementById("demo10").innerHTML=produceNum(7,1);
 document.getElementById("demo11").innerHTML=produceNum1(9,1);
