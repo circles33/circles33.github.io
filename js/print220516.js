@@ -34,9 +34,9 @@ document.getElementById("demo2").innerHTML=rand(12,1);
 
 document.getElementById("demo3").innerHTML=rand(26,1);
 
-if(rand(4,1)=1){
+if(rand(4,1)==1){
 document.getElementById("if").innerHTML="general part";
-}else if(rand(4,1)=2){
+}else if(rand(4,1)==2){
 document.getElementById("if").innerHTML="3 part";
 }
 else{
