@@ -38,5 +38,6 @@ document.getElementById("if").innerHTML="前";
 }
 document.getElementById("demo10").innerHTML=produceNum(7,1);
 document.getElementById("demo11").innerHTML=produceNum1(9,1);
+document.getElementById("demo12").innerHTML=rand(43,1);
 
 
