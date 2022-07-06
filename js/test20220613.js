@@ -1,4 +1,4 @@
 function myFunction(){
-	var arr = ["1","2","3"]
+	var arr = new Array(10,20,30);
 	document.getElementById("demo").innerHTML=arr[1];
 }
