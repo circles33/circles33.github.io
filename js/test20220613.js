@@ -1,1 +1,1 @@
-document.getElementById('demo').innerHTML="页面主机名是:</br>"+window.location.hostname;
+document.getElementById('demo').innerHTML="页面路径是:</br>"+window.location.pathname;
