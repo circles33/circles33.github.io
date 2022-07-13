@@ -1,1 +1,1 @@
-document.getElementById('demo').innerHTML="页面路径是:</br>"+window.location.pathname;
+document.getElementById('demo').innerHTML="页面协议是:</br>"+window.location.protocol;
