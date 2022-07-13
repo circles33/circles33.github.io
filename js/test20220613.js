@@ -1,1 +1,3 @@
-document.getElementById('demo').innerHTML="页面端口号是:</br>"+window.location.port;
+function newDoc(){
+window.location.assign("https://www.w3school.com.cn/tiy/t.asp?f=eg_js_location_assign");
+}
