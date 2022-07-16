@@ -32,7 +32,7 @@ document.getElementById("demo1").innerHTML=rand(8,1);
 
 document.getElementById("demo2").innerHTML=rand(12,1);
 
-document.getElementById("demo3").innerHTML=rand(26,1);
+document.getElementById("demo3").innerHTML=rand(97,1);
 
 if(rand(4,1)==1){
 document.getElementById("if").innerHTML="general part";
