@@ -1,17 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="css/test20220613.css">
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <title>Page title</title>
 </head>
 <body>
-
-<p>点击下面的按钮，只要 i 小于 5 就一直循环代码块。</p>
-<button onclick="getElementById('demo').innerHTML=Date()">显示时间
-</button>
-<p id="demo">demo</p>
-<input type="button" value="加载新的文档" onclick="newDoc()">
-<script type="text/javascript"  src="js/test20220613.js"></script>
-
+    <p>你爱好的运动是? <input type="checkbox" id="cheAll">全选/全不选</p>
+    <input type="checkbox" name="likes" id="soc" value="足球">足球
+    <input type="checkbox" name="likes" id="bas" value="篮球">篮球
+    <input type="checkbox" name="likes" value="羽毛球">羽毛球
+    <input type="checkbox" name="likes" value="乒乓球">乒乓球</br>
+    <button id="btn">提交</button>
+    <script>
+        var cheAll = document.getElementById("cheAll");
+        var items = document.getElementsByName("likes");
+        cheAll.onclick = function(){
+        var flag= this.checked;
+        cheAll.checked=flag;
+            for(var i =0;i< items.length;i++){
+                items[i].checked=this.checked;
+            }
+        }
+        for(var i =0;i< items.length;i++){
+            items[i].onclick=function () {
+            for(var i =0;i< items.length;i++){
+                if(!items[i].checked){
+                    cheAll.checked=false;
+                    break;
+                }else{
+                    cheAll.checked=true;
+                }}}}
+        var btn=document.getElementById("btn");
+        btn.onclick=function () {
+        var array=[];
+        for(var i=0;i<items.length;i++){
+        if(items[i].checked)
+        array.push(items[i].value)
+        } 
+        alert(array);
+        }
+        
+    </script>
 </body>
 </html>
