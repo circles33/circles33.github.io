@@ -5,41 +5,66 @@
     <title>Page title</title>
 </head>
 <body>
-    <p>你爱好的运动是? <input type="checkbox" id="cheAll">全选/全不选</p>
-    <input type="checkbox" name="likes" id="soc" value="足球">足球
-    <input type="checkbox" name="likes" id="bas" value="篮球">篮球
-    <input type="checkbox" name="likes" value="羽毛球">羽毛球
-    <input type="checkbox" name="likes" value="乒乓球">乒乓球</br>
-    <button id="btn">提交</button>
+    <ul id="ul1">
+        <li id="link1">连接1</li>
+        <li id="link2">连接2</li>
+        <li id="link3">连接3</li>
+    </ul>
+    
+    <button id="addBtn">添加</button>
+    <button>克隆</button>
+    <button>移动</button>
+    <button id="txt">内容TXT</button>
+    <button id="html">内容HTML</button>   
+    <button>属性</button>
+    <button id="sty">样式</button>
+    
     <script>
-        var cheAll = document.getElementById("cheAll");
-        var items = document.getElementsByName("likes");
-        cheAll.onclick = function(){
-        var flag= this.checked;
-        cheAll.checked=flag;
-            for(var i =0;i< items.length;i++){
-                items[i].checked=this.checked;
-            }
+        var parent = document.getElementById("ul1");
+        var addBtn = document.getElementById("addBtn");
+        addBtn.onclick = function(){
+        var para = document.createElement("li");
+        var node = document.createTextNode("新连接");
+        para.appendChild(node);
+        
+        parent.appendChild(para);
+        
+         var del = document.getElementsByTagName("li");
+        for(var i=0;i<del.length;i++){
+        del[i].ondblclick = function (){
+           parent.removeChild(this);
         }
-        for(var i =0;i< items.length;i++){
-            items[i].onclick=function () {
-            for(var i =0;i< items.length;i++){
-                if(!items[i].checked){
-                    cheAll.checked=false;
-                    break;
-                }else{
-                    cheAll.checked=true;
-                }}}}
-        var btn=document.getElementById("btn");
-        btn.onclick=function () {
-        var array=[];
-        for(var i=0;i<items.length;i++){
-        if(items[i].checked)
-        array.push(items[i].value)
-        } 
-        alert(array);
+        }
         }
         
+        var txt = document.getElementById("txt");
+        txt.onclick = function (){
+        var link1 = document.getElementById("link1");
+        var para = document.createElement("li");
+        para.setAttribute('id','para');
+        var node = document.createTextNode("innerTXT");
+        para.appendChild(node);
+        parent.replaceChild(para,link1);
+        }
+        
+        var html = document.getElementById("html");
+        html.onclick = function (){
+        var paraHtml = document.getElementById('para');
+        paraHtml.innerHTML ='<a href="https://www.runoob.com/jsref/prop-html-innerhtml.html"> innerTXT</a>';
+        }
+        
+        var sty = document.getElementById("sty");
+        sty.onclick = function (){
+ document.getElementById("para").style.color="red";      document.getElementById("link2").style.color="green";
+        document.getElementById("link3").style.color="blue";
+        }
+        
+        var del = document.getElementsByTagName("li");
+        for(var i=0;i <del.length;i++){
+        del[i].ondblclick = function (){
+           parent.removeChild(this);
+        }
+        }
     </script>
 </body>
 </html>
