@@ -78,7 +78,7 @@ table table tr:nth-child(2n){
 }
 
 li{
-list-style-image:url('images/backpack.gif');
+list-style-image:url(images/backpack.gif);
 padding-top:2px;
 padding-bottom:2px;
 
