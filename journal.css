@@ -53,7 +53,7 @@ th{
     background-color:#cc6600;
 }
 
-.cellcolor{
+tr:nth-child(odd){
     background-color:#fcba7a;
 }
 
