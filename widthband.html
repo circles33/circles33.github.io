@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div v-if="Math.floor(Math.random()*9)+1===1">对安装调测费有异议 怎么说</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===2">考虑1：对比移动</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===3">考虑2：套餐资费贵</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===4">考虑3：要去营业厅</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===5">考虑4：和家人商量</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===6">用户不愿意提供身份证 怎么说</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===7">资费贵</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===8">单宽拦截</div>
+        <div v-else-if="Math.floor(Math.random()*9)+1===9">用户称自己暂时不在家暂时不能安装</div>
+        <div v-else>业务规则不认可</div>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue(
+            {
+                el: '#app',
+                data: {
+                    message: '你好啊世界'
+                }
+            }
+        )
+    </script>
+</body>
+
+</html>

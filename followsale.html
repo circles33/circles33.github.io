@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div v-if="Math.floor(Math.random()*15)+1===1">天翼、融合套餐符合加装副卡的用户</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===2">用户套餐符合且允许加入副卡的用户</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===3">标识升档+副卡</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===4">如遇用户来电咨询，卖号卡服务</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===5">您担心老人独自在家无人照料？我们提供时刻看护和提醒服务</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===6">实时监控老人在做什么，发生意外情况可以及时救援</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===7">每当打电话时，没聊几句，老人就会说“撂下吧，少花点钱，按上监控就不怕啦</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===8">家里的电视不会操作啦</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===9">自从当了爸妈之后，宝宝的安全是第一位的，随时随地了解宝宝的情况</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===10">疫情期间，家里神兽在家上网课</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===11">安全意识要加强，防偷防盗从我做起</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===12">独居生活存在安全隐患</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===13">每天想三次的铲屎官/御犬吏，实现监控里面逗一下</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===14">新装宽带且成功下单的用户</div>
+        <div v-else-if="Math.floor(Math.random()*15)+1===15">非投诉/注销/情绪激动的宽带用户都可营销</div>
+        <div v-else>营销机会：魔盘营销用户</div>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue(
+            {
+                el: '#app',
+                data: {
+                    message: '你好啊世界'
+                }
+            }
+        )
+    </script>
+</body>
+
+</html>
