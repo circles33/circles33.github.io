@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div v-if="Math.floor(Math.random()*2)+1===2">针对用户仍坚持渠道工作人员没解释清楚的：</div>
+        <div v-else>针对要签协议的解释：</div>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue(
+            {
+                el: '#app',
+                data: {
+                    message: '你好啊世界'
+                }
+            }
+        )
+    </script>
+</body>
+
+</html>

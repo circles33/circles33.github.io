@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div v-if="Math.floor(Math.random()*2)+1===2">用户对计费展示问题表示抱怨</div>
+        <div v-else>用户如确实表示不需要这个费用，直接可以为用户受理取消</div>
+    </div>
+    <script src="../js/vue.js"></script>
+    <script>
+        const app = new Vue(
+            {
+                el: '#app',
+                data: {
+                    message: '你好啊世界'
+                }
+            }
+        )
+    </script>
+</body>
+
+</html>
