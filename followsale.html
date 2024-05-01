@@ -10,81 +10,84 @@
 
 <body>
     <div id="app">
-        <div v-if="Math.floor(Math.random()*68)+1===1">天翼、融合套餐符合加装副卡的用户</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===2">用户套餐符合且允许加入副卡的用户</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===3">标识升档+副卡</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===4">如遇用户来电咨询，卖号卡服务</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===5">您担心老人独自在家无人照料？我们提供时刻看护和提醒服务</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===6">实时监控老人在做什么，发生意外情况可以及时救援</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===7">每当打电话时，没聊几句，老人就会说“撂下吧，少花点钱，按上监控就不怕啦</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===8">家里的电视不会操作啦</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===9">自从当了爸妈之后，宝宝的安全是第一位的，随时随地了解宝宝的情况</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===10">疫情期间，家里神兽在家上网课</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===11">安全意识要加强，防偷防盗从我做起</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===12">独居生活存在安全隐患</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===13">每天想三次的铲屎官/御犬吏，实现监控里面逗一下</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===14">新装宽带且成功下单的用户</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===15">非投诉/注销/情绪激动的宽带用户都可营销</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===16">流量语音费用超出</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===17">费用未超出，非5G</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===18">费用未超出，5G套餐</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===19">通话中提到“网课”等相关场景</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===20">故障反馈“网速慢、网速卡、流量不够、通话分钟数”等相关场景
-            （情绪不激动的，先辅导故障后切入主动营销）</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===21">升级为199及以上套餐</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===22">升级为129-199套餐（不包含199）</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===23">用户已有投诉工单派分公司处理，用户在线不挂机要求处理，联系分公司不处理或不接电话</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===24">单子在分公司，联系不上分公司的接单人，用户要求马上处理，在线不挂机</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===25">各种业务规则在线解释不认可，拦截后仍不能解决，要求在线马上退费，马上修复故障的，不处理不挂机的</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===26">
-            要求更高级（指定工号或姓名）接听，如果不接听在线不挂强烈要求不能主动挂起电话，晚上疑难支撑，因晚上各部门已下班，有的用户急需要马上处理的问题无法进行协调</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===27">手机故障申报后，根本无人联系处理，长时间累计爆发后来电不挂机的</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===28">客户一昧要求领导回复，不愿告知什么问题</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===29">服务过程中，客户对客服人员自身处理方式产生质疑</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===30">客户愿意说出投诉问题，但只愿意上级回复</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===31">用户费用无问题，正常解释不认可，或多次解释用户不理解</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===32">流量超出、提醒延迟，我方有下发短信，但用户坚持说没有收到或说我方没有提醒</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===33"><a href="./4.html">带四号码入网30专款赠费</a></div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===34">手机套餐有合约，合约期内无法高改低，E家套餐有效期内不能拆机等业务规则类不认可，要求必须处理</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===35">信用度时间调整到7天</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===36">在线立即要求复机并且恢复上网功能</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===37">用户不在本地要求办理拆机业务，归属地无人代办，我方又无法协调</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===38">人在外地无法回来办理补卡的</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===39">投诉员工服务态度，要求必须书面、邮件或公告道歉承诺必须按照其处理要求方才挂机 </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===40"><a href="./contract.html">用户在营业厅办理业务后坚持说营业厅的工作人员没有说清楚的 </a>
-        </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===41">我方信号类问题，导致用户无法正常使用手机的，信号问题又长期处理不好 </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===42">情绪激动边说边骂的 </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===43">费用争议(ITV)业务否认订购和使用：</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===44">费用争议(ITV)业务有订购，但是无观影记录：</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===44"><a href="">费用争议(流量)流量否认使用</a></div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===44">费用争议(流量)流量提醒不及时</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===45">装维不及时递进层次</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===46">装维不及时质疑网络故障出现频率等情况</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===47">装维不及时升级处理类</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===48"><a href="./non-native.html">非本机辅助鉴权</a></div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===50">融合提值赠费、新合约未到期的用户</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===51">融合提值赠费、新合约体验到期的用户</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===52">融合提值赠费、新合约不同意体验的</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===53"><a
-                href="itv.html">操作指导（ITV操作、网厅、路由器等）ITV操作如用户反映电视屏幕显示无信号</a> </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===54">操作指导（ITV操作、网厅、路由器等）ITV操作如用户无法找到直播，回看等按钮</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===55">操作指导（ITV操作、网厅、路由器等）网厅操作</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===56">操作指导（ITV操作、网厅、路由器等）路由器操作如用户来电要求查询宽带账号密码设置路由器</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===57">
-            操作指导（ITV操作、网厅、路由器等）路由器操作如用户来电称设置路由器的时候登录了设置IP但是进入的是家庭网关页面（页面里面会有我的E家这几个字</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===58"><a href="./telecommunications.html">手机故障</a> </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===59">增值业务退订</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===60">增值业务投诉</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===61">增值业务资费授权内</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===62">增值业务资费如超出权限</div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===63">停复机用户号码来电反映不能使用，查询用户号码现在是欠费停机时？ </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===64">停复机用户现在已经停机，现在不方便缴费 </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===65">停复机E家套餐用户/手机号码有合约时要求我方办理停机保号 </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===66">停复机E家套餐拆机或者单独手机有合约拆机 </div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===67"><a href="./righttoknow.html">用户不知情改套餐</a></div>
-        <div v-else-if="Math.floor(Math.random()*68)+1===68">密码设置修改（包括ITV消费密码、宽带密码、wifi密码等相关） </div>
-        <div v-else>主动咨询/订购流量的用户</div>
+        <div v-if="Math.floor(Math.random()*72)+1===1">主动咨询/订购流量的用户（年）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===2">用针对流量超出（年）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===3">流量降速（年）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===4">咨询有无流量赠送（年）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===5">查询流量剩余（年）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===6">实连续几月订购过加餐包（年）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===7">流量溢出（月）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===8">流量限速（月）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===9">历史订购加餐包（月）</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===10">用户主动咨询（以套餐群体和套餐亮点切入推荐）59套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===11">用户主动咨询（以套餐群体和套餐亮点切入推荐）79套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===12">用户主动咨询（以套餐群体和套餐亮点切入推荐）99套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===13">用户主动咨询（以套餐群体和套餐亮点切入推荐）129套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===14">用户主动咨询（以套餐群体和套餐亮点切入推荐）169套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===15">用户主动咨询（以套餐群体和套餐亮点切入推荐）199套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===16">用户主动咨询（以套餐群体和套餐亮点切入推荐）239套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===17">用户主动咨询（以套餐群体和套餐亮点切入推荐）299套餐</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===18">我方主动营销提值-语流溢出</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===19">我方主动营销提值-语音溢出</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===20">我方主动营销提值-历史订购语音包</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===21">我方主动营销提值-障碍网速低</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===22">我方主动营销提值-提值FTTR</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===23">异议处理话术套餐对比法</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===24">异议处理话术价格对比</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===25">异议处理话术考虑异议处理和促单话术</div>
+        <div v-else-if="Math.floor(Math.random()*72)+1===26">
+            异议处理话术网速需求促进话术</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===27">用户已有投诉工单派分公司处理，用户在线不挂机要求处理，联系分公司不处理或不接电话</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===28">单子在分公司，联系不上分公司的接单人，用户要求马上处理，在线不挂机</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===29">各种业务规则在线解释不认可，拦截后仍不能解决，要求在线马上退费，马上修复故障的，不处理不挂机的</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===30">
+                要求更高级（指定工号或姓名）接听，如果不接听在线不挂强烈要求不能主动挂起电话，晚上疑难支撑，因晚上各部门已下班，有的用户急需要马上处理的问题无法进行协调</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===31">手机故障申报后，根本无人联系处理，长时间累计爆发后来电不挂机的</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===32">客户一昧要求领导回复，不愿告知什么问题</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===33">服务过程中，客户对客服人员自身处理方式产生质疑</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===34">客户愿意说出投诉问题，但只愿意上级回复</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===35">用户费用无问题，正常解释不认可，或多次解释用户不理解</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===36">流量超出、提醒延迟，我方有下发短信，但用户坚持说没有收到或说我方没有提醒</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===37"><a href="./4.html">带四号码入网30专款赠费</a></div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===38">手机套餐有合约，合约期内无法高改低，E家套餐有效期内不能拆机等业务规则类不认可，要求必须处理</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===39">信用度时间调整到7天</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===40">在线立即要求复机并且恢复上网功能</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===41">用户不在本地要求办理拆机业务，归属地无人代办，我方又无法协调</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===42">人在外地无法回来办理补卡的</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===43">投诉员工服务态度，要求必须书面、邮件或公告道歉承诺必须按照其处理要求方才挂机 </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===44"><a href="./contract.html">用户在营业厅办理业务后坚持说营业厅的工作人员没有说清楚的 </a>
+            </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===45">我方信号类问题，导致用户无法正常使用手机的，信号问题又长期处理不好 </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===46">情绪激动边说边骂的 </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===47">费用争议(ITV)业务否认订购和使用：</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===48">费用争议(ITV)业务有订购，但是无观影记录：</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===49"><a href="">费用争议(流量)流量否认使用</a></div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===50">费用争议(流量)流量提醒不及时</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===51">装维不及时递进层次</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===52">装维不及时质疑网络故障出现频率等情况</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===53">装维不及时升级处理类</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===54"><a href="./non-native.html">非本机辅助鉴权</a></div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===55">融合提值赠费、新合约未到期的用户</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===56">融合提值赠费、新合约体验到期的用户</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===57">融合提值赠费、新合约不同意体验的</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===58"><a
+                    href="itv.html">操作指导（ITV操作、网厅、路由器等）ITV操作如用户反映电视屏幕显示无信号</a> </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===59">操作指导（ITV操作、网厅、路由器等）ITV操作如用户无法找到直播，回看等按钮</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===60">操作指导（ITV操作、网厅、路由器等）网厅操作</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===61">操作指导（ITV操作、网厅、路由器等）路由器操作如用户来电要求查询宽带账号密码设置路由器</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===62">
+                操作指导（ITV操作、网厅、路由器等）路由器操作如用户来电称设置路由器的时候登录了设置IP但是进入的是家庭网关页面（页面里面会有我的E家这几个字</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===63"><a href="./telecommunications.html">手机故障</a> </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===64">增值业务退订</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===65">增值业务投诉</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===66">增值业务资费授权内</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===67">增值业务资费如超出权限</div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===68">停复机用户号码来电反映不能使用，查询用户号码现在是欠费停机时？ </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===69">停复机用户现在已经停机，现在不方便缴费 </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===70">停复机E家套餐用户/手机号码有合约时要求我方办理停机保号 </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===71">停复机E家套餐拆机或者单独手机有合约拆机 </div>
+            <div v-else-if="Math.floor(Math.random()*72)+1===72"><a href="./righttoknow.html">用户不知情改套餐</a></div>
+            <div v-else>密码设置修改（包括ITV消费密码、宽带密码、wifi密码等相关）</div>
     </div>
     <script src="../js/vue.js"></script>
     <script>
